@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'">
+  <meta name="referrer" content="no-referrer">
+  <title>Política de privacidad · Dos de copas</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="doc">
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="muted">Dos de copas · Vigente desde el 11 de noviembre de 2026</p>
+
+    <p class="summary">Dos de copas es un muro privado para dos personas. Lo que comparten (notas, fotos, audios, sus nombres y el color del muro) se cifra en sus celulares antes de salir y solo se puede descifrar en esos dos celulares. <strong>Nosotros no lo podemos leer.</strong> No hay publicidad, analíticas ni rastreo.</p>
+
+    <h2>Quién es el responsable</h2>
+    <p>Fernando Mariscotti, desarrollador de Dos de copas. Contacto: <strong>fernamariscotti@gmail.com</strong>.</p>
+
+    <h2>Qué datos se tratan</h2>
+    <ul>
+      <li><strong>Tu cuenta:</strong> el email y el identificador de tu cuenta de Google, para iniciar sesión. Nunca recibimos tu contraseña.</li>
+      <li><strong>Lo que comparten, cifrado de extremo a extremo:</strong> notas, fotos, audios, la carta de cada uno, sus nombres y el color del muro. Se guardan y viajan cifrados con una clave que existe solo en los dos celulares de la pareja. No los podemos leer ni entregar legibles.</li>
+      <li><strong>Datos técnicos:</strong> qué cuentas están vinculadas, cuándo y quién deja cada carta, si la otra persona la vio, el tamaño de los archivos cifrados, las sesiones abiertas y el identificador de notificaciones del celular (Firebase Cloud Messaging).</li>
+    </ul>
+    <p>En el celular, la app usa el micrófono solo mientras mantenés apretado el botón para grabar un audio, y la cámara y el selector de fotos del sistema, que le dan a la app únicamente la foto que elegís. Las fotos se vuelven a guardar sin metadatos: sin ubicación ni datos del celular.</p>
+
+    <h2>Para qué se usan</h2>
+    <p>Solo para que el servicio funcione: iniciar sesión, vincular a la pareja, guardar y entregar lo que se dejan y avisar cuando llega algo nuevo. No se usan para publicidad, perfiles ni estadísticas, y no se venden.</p>
+
+    <h2>Con quién se comparten</h2>
+    <p>Con proveedores que procesan datos solo para prestar el servicio:</p>
+    <ul>
+      <li><strong>Railway</strong> (servidores en Estados Unidos): aloja la base de datos y los archivos, siempre cifrados.</li>
+      <li><strong>Google</strong>: el inicio de sesión con Google y el envío de notificaciones (Firebase Cloud Messaging). Las notificaciones no llevan contenido: el celular lo descifra al recibirlas.</li>
+      <li><strong>GitHub Pages</strong>: aloja esta página y la de invitación. El secreto de una invitación va después del <code>#</code> del link y no se envía a ningún servidor.</li>
+    </ul>
+    <p>Los datos se guardan en Estados Unidos. Solo los entregaríamos si una ley o una autoridad competente lo exigiera; aun así, el contenido está cifrado y no lo podemos leer.</p>
+
+    <h2>Cuánto tiempo se guardan</h2>
+    <ul>
+      <li>Mientras tengas la cuenta.</li>
+      <li><strong>Desvincularse</strong> borra todo lo que compartieron, en el servidor y en los dos celulares.</li>
+      <li><strong>Eliminar la cuenta</strong> borra la cuenta y, si tenés pareja, todo lo que compartieron.</li>
+      <li>Las copias de seguridad de la base de datos y los registros técnicos del servidor (que no tienen contenido) se renuevan y se borran solos con el tiempo. Lo que quedara en una copia es ilegible: la clave para descifrarlo ya no existe en ningún lado.</li>
+    </ul>
+
+    <h2>Seguridad</h2>
+    <p>El cifrado usa Google Tink (XChaCha20-Poly1305 y AES-256-GCM); las claves quedan protegidas por el Android Keystore y se excluyen de las copias de seguridad del celular. Este diseño no protege un celular desbloqueado en manos de otra persona ni las capturas de pantalla.</p>
+
+    <h2>Tus derechos</h2>
+    <p>Podés pedir acceso, corrección o eliminación de tus datos escribiendo a fernamariscotti@gmail.com. Para borrar tu cuenta y todo lo asociado, seguí los pasos de <a href="../eliminar-cuenta/">Eliminar tu cuenta</a>.</p>
+    <p>La AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.</p>
+
+    <h2>Edad</h2>
+    <p>Dos de copas está pensada para personas mayores de 18 años.</p>
+
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, se actualiza la fecha de arriba. Si el cambio es importante, lo avisamos en la app.</p>
+
+    <footer class="muted"><a href="../">Dos de copas</a> · <a href="../eliminar-cuenta/">Eliminar tu cuenta</a></footer>
+  </main>
+</body>
+</html>
